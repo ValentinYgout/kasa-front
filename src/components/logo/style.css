@@ -1,0 +1,20 @@
+header div.logo{
+    height: 80px;
+    width: 260px;
+    
+}
+header div.logo span{
+   
+    margin: 0 5px;
+    color: #FF6060;
+    font-size: 80px;
+
+}
+header div.logo svg{
+    
+    
+    margin: 0 5px;
+    color: #FF6060;
+   
+
+}

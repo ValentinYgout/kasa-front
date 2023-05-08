@@ -1,0 +1,38 @@
+.fiche-info{
+    display: flex;
+    justify-content: space-between;
+}
+.fiche-info-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.fiche-info-right-top{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-between;
+}
+.fiche-info-right-top img{
+    border-radius: 100px;
+
+}
+.fiche-info-left{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.fiche-info-left h1,
+.fiche-info-left .location,
+.fiche-info-right-top .hostname{
+ color:#FF6060 ;
+}
+
+.hostname{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: 700;
+   }

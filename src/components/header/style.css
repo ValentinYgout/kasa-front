@@ -1,0 +1,46 @@
+header{
+    display: flex;
+    justify-content: space-between;
+}
+nav{
+   
+    display: flex;
+    color: #FF6060;
+    
+    
+}
+nav a{
+    margin: 0 30px 0 0;
+    font-size:30px;
+    text-decoration: none;
+    color: #FF6060;
+
+}
+nav a:hover{
+   opacity: 60%;
+   
+
+}
+.active { 
+    text-decoration : underline }
+
+header div.logo{
+    height: 80px;
+    width: 260px;
+    
+}
+header div.logo span{
+   
+    margin: 0 5px;
+    color: #FF6060;
+    font-size: 80px;
+
+}
+header div.logo svg{
+    
+    
+    margin: 0 5px;
+    fill: #FF6060;
+   
+
+}

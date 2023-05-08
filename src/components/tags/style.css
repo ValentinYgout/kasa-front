@@ -1,0 +1,20 @@
+.tags{
+    display: flex;
+    
+   
+}
+.tags span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+   margin-right: 10px;
+   padding: 5px 30px;
+    background: #FF6060;
+    color: white;
+    border-radius: 10px;
+
+
+
+}

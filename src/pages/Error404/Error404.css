@@ -1,0 +1,21 @@
+.error-container{
+    height:800px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.error-container .error{
+     font-size: 288px;
+     color: #FF6060;
+}
+.error-container .oups{
+    font-size: 36px;
+    color: #FF6060;
+}
+
+.error-container .return{
+    font-size: 18px;
+    color: #FF6060;
+}

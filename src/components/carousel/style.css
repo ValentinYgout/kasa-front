@@ -1,0 +1,49 @@
+.carousel {
+    position: relative;
+  }
+  .carousel img {
+    object-fit: cover;
+  }
+
+.previous{
+    transform: rotate(270deg);
+    fill: black;
+
+}
+.next{
+    transform: rotate(90deg);
+    fill: black;
+
+}
+
+.carousel .previous,
+.carousel .next {
+  position: absolute;
+  top: 50%;
+  width: 24px;
+  height: 14px;
+  fill: #FF6060;
+  cursor: pointer;
+}
+
+
+.carousel .previous {
+    left: 0;
+  }
+  
+  .carousel .next {
+    right: 0;
+  }
+
+.hide{display: none;}
+
+.indicator{
+    position: absolute;
+    top: 0%;
+    right: 0;
+    color: #FF6060;;
+font-weight: bolder;
+font-size: 20px;
+margin-right: 10px;
+
+}

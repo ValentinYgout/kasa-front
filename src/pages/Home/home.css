@@ -1,0 +1,30 @@
+.home-container{
+    height: 100%;
+    width: 100%;
+    margin: 30px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.home-container .banner img {
+    filter: brightness(0.7);
+    object-fit: cover;
+   
+  } 
+
+
+
+ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px 0;
+
+    margin: 30px 0;
+    padding: 0;
+
+}

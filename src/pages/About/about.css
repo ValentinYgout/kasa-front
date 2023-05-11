@@ -1,11 +1,13 @@
 .about-dropdowns{
-  min-height: 300px;
+  min-height: 450px;
     margin: 30px 0;
     display: flex;
    
     align-items: center;
  flex-direction: column;
- gap: 30px;
+ justify-content: center;
+ align-items: center;
+ gap: 10px;
 }
 
 .about-container .banner img {
@@ -15,3 +17,13 @@
   } 
 
 
+  @media screen and (max-width: 450px) {
+    .about-container .banner img{
+     
+    height: 150px;
+    
+    
+    }
+  
+
+}

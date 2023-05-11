@@ -1,5 +1,5 @@
 .error-container{
-    height:800px ;
+    height:600px ;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -8,6 +8,7 @@
 
 .error-container .error{
      font-size: 288px;
+     font-weight: 700;
      color: #FF6060;
 }
 .error-container .oups{
@@ -18,4 +19,16 @@
 .error-container .return{
     font-size: 18px;
     color: #FF6060;
+}
+
+
+
+
+@media screen and (max-width: 450px) {
+    .error-container .error{
+        font-size: 120px;
+        font-weight: 700;
+        color: #FF6060;
+   }
+ 
 }

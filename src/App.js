@@ -23,7 +23,6 @@ function App() {
 <Route path='/about' element={<About/>} />
 <Route path="/:id" element={<Fiche/>} />
 <Route path="*" element={<Error />} />
-<Route path="/error" element={<Error />} />
 </Routes>
 <Footer/>
      

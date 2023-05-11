@@ -1,9 +1,32 @@
+html, body {
+  margin:0;
+  padding:0;
+
+}
 
 .App{
   font-family: 'Montserrat', sans-serif;
-  min-height: 100%;
-  margin: 0 10%;
+height: 100%;
+
 display: flex;
 flex-direction: column;
 justify-content: space-between;
 }
+
+
+header,.fiche-container,.home-container,.about-container,.error-container{
+  padding: 0 50px;
+
+}
+
+
+
+@media screen and (max-width: 450px) {
+
+  header,.fiche-container,.home-container,.about-container,.error-container{
+    padding: 0 30px;
+  
+  }
+
+}
+

@@ -3,14 +3,14 @@ import "./style.css";
 
 
 
-const Banner = ({BackgroundPicture,height}) => {
+const Banner = ({BackgroundPicture}) => {
 
 
 
   return (
  
     <div className="banner">
-<img   style={{ height: height}} src={BackgroundPicture} alt="" />
+<img    src={BackgroundPicture} alt="" />
     </div>
 
 

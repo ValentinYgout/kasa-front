@@ -1,8 +1,7 @@
 .fiche-container{
     margin: 30px 0;
 }
-
-.dropdowns{
+.fiche-container .dropdowns{
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -10,5 +9,45 @@
     margin-top: 30px;
 
 }
+
+
+
+
+
+.fiche-container .banner img{
+    height: 350px;
+}
+
+@media screen and (max-width: 450px) {
+
+    .fiche-container .banner img{
+       height: 320px;
+    }
+    .fiche-container .carousel {
+        height: 320px;
+     }
+
+    .dropdowns{
+        display: flex;
+        flex-direction: column;
+    
+       align-items: center;
+        width: 100%;
+        min-height: 100px;
+        margin-top: 30px;
+    
+    }
+
+    h1{
+        margin: 5px 0;
+        font-size: 22px;
+    }
+    
+  
+  }
+
+  
+  
+  
 
 

@@ -1,6 +1,6 @@
 .home-container{
     height: 100%;
-    width: 100%;
+
     margin: 30px 0;
     display: flex;
     flex-direction: column;
@@ -9,7 +9,9 @@
 }
 
 
+
 .home-container .banner img {
+    height: 250px;
     filter: brightness(0.7);
     object-fit: cover;
    
@@ -26,5 +28,17 @@ ul{
 
     margin: 30px 0;
     padding: 0;
+
+}
+
+
+@media screen and (max-width: 450px) {
+    .home-container .banner img{
+     
+    height: 150px;
+    
+    
+    }
+  
 
 }

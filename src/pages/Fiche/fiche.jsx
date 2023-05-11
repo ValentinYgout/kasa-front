@@ -27,7 +27,7 @@ const Fiche = () => {
         const FicheData = data.find(item => item.id === id);
 
         if (!FicheData) {
-          navigate('/error');
+          navigate('*');
         } else {
           setFiche(FicheData);
         }

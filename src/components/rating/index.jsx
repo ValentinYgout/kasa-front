@@ -2,7 +2,12 @@
 import './style.css';
 
 
-
+/**
+ * 
+ * @param {number} full
+ * @param {number} empty
+ * @returns 
+ */
 function Rating({ full, empty }) {
     const fullStars = [];
     for (let i = 0; i < full; i++) {

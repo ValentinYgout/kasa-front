@@ -24,11 +24,7 @@ nav a:hover{
 .active { 
     text-decoration : underline }
 
-header div.logo{
-    height: 80px;
-    width: 260px;
-    
-}
+
 header div.logo span{
    
     margin: 0 5px;
@@ -43,4 +39,15 @@ header div.logo svg{
     fill: #FF6060;
    
 
+}
+
+@media screen and (max-width: 450px) {
+   
+    nav a{
+        margin: 0 10px 0 0;
+        font-size:12px;
+        text-decoration: none;
+        color: #FF6060;
+    
+    }
 }

@@ -28,12 +28,11 @@ const Home = () => {
     <div className='home-container'>
       <Banner
       BackgroundPicture="homebanner.png"
-       height="250px"
       />
       
       {fiches && (
         <ul>
-          {fiches.map(({id,title,cover,index}) => (
+          {fiches.map(({id,title,cover},index) => (
       
             
             <Thumb

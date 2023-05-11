@@ -21,7 +21,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 25%;
+    height: fit-content;
+    
     
     position: absolute;
     bottom: 0;
@@ -40,3 +41,20 @@
     margin: 0;
     font-size: 40px;
   }
+
+
+  @media screen and (max-width: 450px) {
+   
+.thumbnails{
+
+    height: 350px;
+    width:350px;
+
+}
+.image-title span {
+
+  margin: 0;
+  font-size: 20px;
+}
+
+}

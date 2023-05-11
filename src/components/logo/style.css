@@ -1,8 +1,4 @@
-header div.logo{
-    height: 80px;
-    width: 260px;
-    
-}
+
 header div.logo span{
    
     margin: 0 5px;
@@ -17,4 +13,25 @@ header div.logo svg{
     color: #FF6060;
    
 
+}
+
+@media screen and (max-width: 600px) {
+
+  
+    header div.logo span{
+   
+        margin: 0 2px;
+        color: #FF6060;
+        font-size: 50px;
+        font-weight: 700;
+    
+    }
+
+    header div.logo svg{
+        height: 30px;
+ 
+        width: 30px;
+    
+    
+    }
 }

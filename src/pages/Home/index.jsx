@@ -26,9 +26,14 @@ const Home = () => {
 
   return (
     <div className='home-container'>
+      <div className="banner-container">
+
       <Banner
       BackgroundPicture="homebanner.png"
       />
+    
+      <span className='banner-text'>Chez vous, partout et ailleurs</span>
+      </div>
       
       {fiches && (
         <ul>

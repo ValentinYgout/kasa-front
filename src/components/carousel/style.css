@@ -37,8 +37,21 @@
 
 .hide{display: none;}
 
+.carousel span {
+  position: absolute;
+  bottom: 40px; /* Adjust the value as needed */
+  left: 50%;
+ 
+  color: #fff; /* Set the desired color */
+  font-size: 16px; /* Set the desired font size */
+  font-weight: bold; /* Set the desired font weight */
+}
+
 
 
 @media screen and (max-width: 450px) {
-
+  .carousel span {
+   display: none;
+  }
 }
+

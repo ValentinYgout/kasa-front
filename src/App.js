@@ -4,12 +4,14 @@ import {
   BrowserRouter as Router, Routes, Route,
 } from "react-router-dom";
 import './index.css';
+
 import Home from './pages/Home';
 import About from './pages/About';
+import Error from './pages/Error404/Error404';
+import Fiche from './pages/Fiche/fiche';
+
 import Header from './components/header';
 import Footer from './components/footer';
-import Fiche from './pages/Fiche/fiche';
-import Error from './pages/Error404/Error404';
 
 function App() {
   return (

@@ -29,7 +29,6 @@ const About = () => {
     <div className="about-container">
       <Banner
         BackgroundPicture="aboutbanner.png"
-        height="250px"
       />
       <div className="about-dropdowns">
         {dropdownContent.map(({ label, text }, index) => (

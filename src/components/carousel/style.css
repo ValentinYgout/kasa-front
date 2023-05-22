@@ -39,12 +39,12 @@
 
 .carousel span {
   position: absolute;
-  bottom: 40px; /* Adjust the value as needed */
+  bottom: 40px; 
   left: 50%;
  
-  color: #fff; /* Set the desired color */
-  font-size: 16px; /* Set the desired font size */
-  font-weight: bold; /* Set the desired font weight */
+  color: #fff; 
+  font-size: 16px; 
+  font-weight: bold;
 }
 
 

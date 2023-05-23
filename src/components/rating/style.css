@@ -7,3 +7,21 @@
   margin-right: 20px;
    
 }
+
+
+
+@media screen and (max-width: 450px) {
+
+    .rating{
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 0px;
+    }
+
+    .rating span{
+        margin-right: 10px;
+         
+      }
+
+    
+}

@@ -1,4 +1,9 @@
 .rating{
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
+    margin-top: 30px;
+}
+.rating span{
+  margin-right: 20px;
+   
 }

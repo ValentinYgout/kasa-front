@@ -1,7 +1,7 @@
 .dropdown {
     width: 45%;
    
-    /* position: relative; */
+   
     display: inline-block;
    
   }
@@ -10,7 +10,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 8px;
+    padding: 14px;
     background-color: #FF6060;
     border-radius: 5px;
     cursor: pointer;
